@@ -1,0 +1,7 @@
+Package: dt.revdep
+Version: 0.0.1
+Title: Example CI setup for using devel DT
+Authors@R: c(person("Jan","Gorecki", role=c("aut","cre"), email="j.gorecki@wit.edu.pl"))
+Description: Example CI setup for using devel DT.
+License: GPL-2
+Imports: data.table
