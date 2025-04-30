@@ -19,6 +19,9 @@ jobs:
         with:
           extra-repositories: https://Rdatatable.gitlab.io/data.table
 
+      - name: Install development version of data.table
+        run: Rscript -e 'print(getOption("repos")); utils::install.packages("data.table")'
+
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: any::rcmdcheck
